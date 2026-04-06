@@ -1,0 +1,12 @@
+torch
+transformers
+accelerate
+peft
+soundfile
+numpy
+gradio
+librosa
+qwen-tts
+huggingface_hub
+sentencepiece
+safetensors
