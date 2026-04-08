@@ -2,16 +2,15 @@
 
 A Darija Moroccan Arabic text-to-speech project based on **Qwen3-TTS-12Hz-1.7B-Base**, fine-tuned with **LoRA** on atlasia/DODa-audio-dataset F3.
 
-## Authors
-- loubna haouach
-- chaimae haddouche
 
 ## Overview
 This project fine-tunes Qwen3-TTS on a Darija dataset and provides inference through a simple Gradio interface.
 
 ## Base Model
 - [`Qwen/Qwen3-TTS-12Hz-1.7B-Base`](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base)
-
+  
+## Hugging Face 
+- ['loubna1101/Qwen3-TTS-Darija-LoRa'](https://huggingface.co/loubna1101/Qwen3-TTS-Darija-LoRa)
 ## Fine-tuning Method
 - LoRA fine-tuning
 - Single-speaker custom voice
@@ -44,6 +43,10 @@ The model is loaded as:
 - base model from Qwen
 - LoRA adapter from this project
 - custom speaker embedding from this project
+
+## Authors
+- loubna haouach
+- chaimae haddouche
 
 ## Disclaimer
 This project is for research and educational purposes. Please ensure you have the right to use and publish the voice data used for fine-tuning.
